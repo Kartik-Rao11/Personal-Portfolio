@@ -42,13 +42,13 @@ const Hero = () => {
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Kartik
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
-            </p>
+            {/* <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+              Welcome to my <br className="sm:block hidden" />
+              Portfolio!
+            </p> */}
           </div>
           <div
             className="w-screen flex flex-col items-start 
