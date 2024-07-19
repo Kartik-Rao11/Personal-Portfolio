@@ -27,6 +27,12 @@ import {
   dcc,
   kelhel,
   microverse,
+  amazonclone,
+  linkedinclone,
+  mongodb,
+  angular,
+  linux,
+  java
 } from '../assets';
 
 export const navLinks = [
@@ -97,24 +103,24 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Mongo Db',
+    icon: mongodb,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Angular',
+    icon: angular,
   },
   {
-    name: 'postgresql',
-    icon: postgresql,
+    name: 'linux',
+    icon: linux,
   },
   {
     name: 'git',
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
+    name: 'java',
+    icon: java,
   },
   {
     name: 'docker',
@@ -149,7 +155,7 @@ const experiences = [
     company_name: 'Castler',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'July 2023 - Present',
   },
 ];
 
@@ -173,7 +179,7 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    repo: 'https://github.com/Kartik-Rao11/Chat-gpt-clone',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
@@ -195,9 +201,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: amazonclone,
+    repo: 'https://github.com/Kartik-Rao11/Amazon-Clone',
+    demo: 'https://clone-9ce50.web.app/',
   },
   {
     id: 'project-3',
@@ -217,9 +223,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: linkedinclone,
+    repo: 'https://github.com/Kartik-Rao11/linkedin-clone',
+    demo: 'https://linkedin-clone-d726f.web.app/',
   }
   // {
   //   id: 'project-4',

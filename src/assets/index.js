@@ -37,6 +37,8 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import mongodb from './tech/mongodb.png';
+import angular from './tech/angular.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -49,6 +51,10 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import amazonclone from './projects/amazonclone.png';
+import linkedinclone from './projects/linkedInclone.png';
+import linux from './tech/linux.png';
+import java from './tech/java.png';
 
 export {
   bwmap,
@@ -96,4 +102,10 @@ export {
   dcc,
   kelhel,
   microverse,
+  amazonclone,
+  linkedinclone,
+  mongodb,
+  angular,
+  linux,
+  java
 };
