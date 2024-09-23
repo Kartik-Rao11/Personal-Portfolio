@@ -32,7 +32,8 @@ import {
   mongodb,
   angular,
   linux,
-  java
+  java,
+  ecommerce
 } from '../assets';
 
 export const navLinks = [
@@ -184,9 +185,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Amazon Clone',
+    name: 'E-Commerce',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A full-stack eCommerce application built with React and Spring Boot And Node Js. The project aims to provide users with a seamless online shopping experience, featuring a responsive and user-friendly interface, a wide range of products, and secure payment options.',
     tags: [
       {
         name: 'react',
@@ -201,9 +202,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: amazonclone,
+    image: ecommerce,
     repo: 'https://github.com/Kartik-Rao11/Amazon-Clone',
-    demo: 'https://clone-9ce50.web.app/',
+    demo: 'https://e-commerce-frontend-kartik-rao.vercel.app/',
   },
   {
     id: 'project-3',
@@ -274,4 +275,6 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, projects };
+const resumeLink = 'https://drive.google.com/file/d/1PzkEu40iim0mxpgGxCrrUgNXvEnC4GoQ/view?usp=drive_link';
+
+export { services, technologies, experiences, projects, resumeLink };

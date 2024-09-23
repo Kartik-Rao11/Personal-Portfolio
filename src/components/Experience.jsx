@@ -9,6 +9,7 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
+import { resumeLink } from '../constants';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -102,7 +103,7 @@ const Experience = () => {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  resumeLink, //paste the link to your r9esume here
                   '_blank'
                 )
               }

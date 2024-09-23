@@ -5,8 +5,10 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
-
+import wolf1 from './logo/wolf1.png';
+import wolf2 from './logo/wolf2.png'
 import shaq from './personal/shaq.png';
+import nameLogo from './logo/name-logo.png'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -55,6 +57,7 @@ import amazonclone from './projects/amazonclone.png';
 import linkedinclone from './projects/linkedInclone.png';
 import linux from './tech/linux.png';
 import java from './tech/java.png';
+import ecommerce from './projects/ecommerce.png'
 
 export {
   bwmap,
@@ -107,5 +110,9 @@ export {
   mongodb,
   angular,
   linux,
-  java
+  java,
+  ecommerce,
+  wolf1,
+  wolf2,
+  nameLogo
 };
