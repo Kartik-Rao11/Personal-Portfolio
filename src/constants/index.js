@@ -33,7 +33,8 @@ import {
   angular,
   linux,
   java,
-  ecommerce
+  ecommerce,
+  chatGptClone
 } from '../assets';
 
 export const navLinks = [
@@ -179,9 +180,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
+    image: chatGptClone,
     repo: 'https://github.com/Kartik-Rao11/Chat-gpt-clone',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    demo: 'https://chat-gpt-clone-kartik-rao.vercel.app/',
   },
   {
     id: 'project-2',

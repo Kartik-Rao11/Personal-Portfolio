@@ -58,6 +58,7 @@ import linkedinclone from './projects/linkedInclone.png';
 import linux from './tech/linux.png';
 import java from './tech/java.png';
 import ecommerce from './projects/ecommerce.png'
+import chatGptClone from './projects/chat-gpt-pro.png';
 
 export {
   bwmap,
@@ -114,5 +115,6 @@ export {
   ecommerce,
   wolf1,
   wolf2,
-  nameLogo
+  nameLogo,
+  chatGptClone
 };
