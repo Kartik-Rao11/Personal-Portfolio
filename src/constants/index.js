@@ -34,7 +34,8 @@ import {
   linux,
   java,
   ecommerce,
-  chatGptClone
+  chatGptClone,
+  devops
 } from '../assets';
 
 export const navLinks = [
@@ -61,10 +62,10 @@ const services = [
     title: 'Backend Developer',
     icon: backend,
   },
-  // {
-  //   title: 'UI/UX Design',
-  //   icon: ux,
-  // },
+  {
+    title: 'Dev Ops',
+    icon: devops,
+  },
   {
     title: 'Software Prototyping',
     icon: prototyping,
@@ -165,7 +166,7 @@ const projects = [
   {
     id: 'project-1',
     name: 'ChatGPT Clone',
-    description: 'Built a ChatGPT clone with React, Node.js, and MongoDB, integrating GPT-3 API for real-time, human-like conversations.',
+    description: 'I developed this ChatGPT clone with the goal of creating a user-friendly, seamless experience for interacting with AI-powered APIs. Built with React for the frontend and Node.js for the backend, the project integrates Hugging Face APIs to deliver real-time AI interactions. The database is powered by MongoDB, ensuring efficient data management. The frontend is deployed on Vercel, and the backend on Render, ensuring efficient performance and scalability. This project highlights my expertise in delivering intuitive, responsive applications while integrating advanced AI services.',
     tags: [
       {
         name: 'react',
@@ -188,7 +189,7 @@ const projects = [
     id: 'project-2',
     name: 'E-Commerce',
     description:
-      'A full-stack eCommerce application built with React and Spring Boot And Node Js. The project aims to provide users with a seamless online shopping experience, featuring a responsive and user-friendly interface, a wide range of products, and secure payment options.',
+      'This full-stack eCommerce application is built using React for the frontend and Java Spring Boot for the backend. The project aims to deliver a seamless and user-friendly online shopping experience, offering a responsive interface, a diverse range of products, and secure payment processing. The database is powered by MySQL, and Razorpay APIs are integrated for smooth and secure payments. The frontend is deployed on Vercel, while the backend is hosted on Railway, ensuring reliability and scalability.',
     tags: [
       {
         name: 'react',
@@ -210,7 +211,7 @@ const projects = [
   {
     id: 'project-3',
     name: 'LinkedIn Clone',
-    description: 'This is a single-page calculator app built with React',
+    description: 'This LinkedIn clone is built using React and Firebase, designed to replicate the core features of the popular professional networking platform. The app includes real-time authentication, user profiles, and features like posting to the feed with text, audio, and video content, providing a smooth and user-friendly experience. The entire application, including the frontend and backend, is deployed through Google Firebase, ensuring seamless integration, hosting, and scalability.',
     tags: [
       {
         name: 'nextjs',

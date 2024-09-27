@@ -20,9 +20,8 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className={`relative ${
-        active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[170px] 
+      className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
+        } flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`}
       onClick={() => handleClick(id)}>
       <div
@@ -124,11 +123,9 @@ const Projects = () => {
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-          These projects demonstrate my expertise with practical examples of
-          some of my work, including brief descriptions and links to code
-          repositories and live demos. They showcase my ability to tackle
-          intricate challenges, adapt to various technologies, and efficiently
-          oversee projects.
+          These projects demonstrate my expertise in developing full-stack applications using MongoDB, Node.js, Express.js, Angular, React, Java, Spring Boot, and MySQL.
+          Each project includes brief descriptions, along with links to code repositories and live demos.
+          They showcase my ability to tackle complex challenges, adapt to various technologies, and efficiently manage end-to-end development.
         </motion.p>
       </div>
 

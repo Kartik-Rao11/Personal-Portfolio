@@ -37,12 +37,13 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Welcome to my {''}
+              Hi, I'm {'Kartik'}
+              <br />
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Portfolio
+                Software Engineer
               </span>
             </h1>
             {/* <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>

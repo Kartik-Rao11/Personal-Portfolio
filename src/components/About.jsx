@@ -37,9 +37,13 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I'm a full stack engineer with a passion for building responsive web applications. 
-        Skilled in frontend frameworks like React and Angular, and backend technologies including Node.js and Python/Django.
-        I create seamless digital experiences from design to deployment.Explore my work to see how I can help bring your ideas to life.
+        I'm a passionate Full Stack Developer with over a year of experience specializing in the fast-paced fintech industry. 
+        I graduated with a B.Tech in 2023 from Guru Gobind Singh Indraprastha University, where I developed a deep understanding of software engineering and development.
+        Currently, I'm contributing to fintech solutions at Castler, focusing on both frontend and backend development. 
+        My technical expertise spans across modern frameworks like Angular and React, alongside backend services using Java and JavaScript. 
+        I focus on building robust, scalable codebases that deliver reliable solutions.
+        With hands-on experience in Linux environments and cloud technologies like AWS and Docker, I thrive in deploying and managing applications using ECS.
+        As a developer, I'm committed to continuous learning, staying on top of emerging technologies to deliver cutting-edge solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

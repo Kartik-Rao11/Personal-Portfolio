@@ -24,6 +24,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
+import devops from './icons/devops.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
@@ -116,5 +117,6 @@ export {
   wolf1,
   wolf2,
   nameLogo,
-  chatGptClone
+  chatGptClone,
+  devops
 };
