@@ -205,7 +205,7 @@ const projects = [
       },
     ],
     image: ecommerce,
-    repo: 'https://github.com/Kartik-Rao11/Amazon-Clone',
+    repo: 'https://github.com/Kartik-Rao11/E-Commerce',
     demo: 'https://e-commerce-frontend-kartik-rao.vercel.app/',
   },
   {
