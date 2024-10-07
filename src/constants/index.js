@@ -277,6 +277,6 @@ const projects = [
   // },
 ];
 
-const resumeLink = 'https://drive.google.com/file/d/1PzkEu40iim0mxpgGxCrrUgNXvEnC4GoQ/view?usp=drive_link';
+const resumeLink = 'https://drive.google.com/file/d/15k-kHlbX7ruDYGFVgcG0Drw2-ZOMrcMG/view?usp=sharing';
 
 export { services, technologies, experiences, projects, resumeLink };
