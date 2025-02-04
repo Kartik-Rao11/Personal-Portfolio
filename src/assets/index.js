@@ -60,6 +60,7 @@ import linux from './tech/linux.png';
 import java from './tech/java.png';
 import ecommerce from './projects/ecommerce.png'
 import chatGptClone from './projects/chat-gpt-pro.png';
+import websiteGenerator from './projects/web-preview.png';
 
 export {
   bwmap,
@@ -118,5 +119,6 @@ export {
   wolf2,
   nameLogo,
   chatGptClone,
-  devops
+  devops,
+  websiteGenerator
 };
