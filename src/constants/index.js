@@ -35,98 +35,99 @@ import {
   java,
   ecommerce,
   chatGptClone,
-  devops
-} from '../assets';
+  devops,
+  websiteGenerator,
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: "Frontend Developer",
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: "Backend Developer",
     icon: backend,
   },
   {
-    title: 'Dev Ops',
+    title: "Dev Ops",
     icon: devops,
   },
   {
-    title: 'Software Prototyping',
+    title: "Software Prototyping",
     icon: prototyping,
   },
 ];
 
 const technologies = [
   {
-    name: 'HTML 5',
+    name: "HTML 5",
     icon: html,
   },
   {
-    name: 'CSS 3',
+    name: "CSS 3",
     icon: css,
   },
   {
-    name: 'JavaScript',
+    name: "JavaScript",
     icon: javascript,
   },
   {
-    name: 'TypeScript',
+    name: "TypeScript",
     icon: typescript,
   },
   {
-    name: 'React JS',
+    name: "React JS",
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: 'Tailwind CSS',
+    name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: 'Node JS',
+    name: "Node JS",
     icon: nodejs,
   },
   {
-    name: 'Mongo Db',
+    name: "Mongo Db",
     icon: mongodb,
   },
   {
-    name: 'Angular',
+    name: "Angular",
     icon: angular,
   },
   {
-    name: 'linux',
+    name: "linux",
     icon: linux,
   },
   {
-    name: 'git',
+    name: "git",
     icon: git,
   },
   {
-    name: 'java',
+    name: "java",
     icon: java,
   },
   {
-    name: 'docker',
+    name: "docker",
     icon: docker,
   },
 ];
@@ -154,82 +155,84 @@ const experiences = [
   //   date: 'May 2022 - Oct 2022',
   // },
   {
-    title: 'Software Developer',
-    company_name: 'Castler',
+    title: "Software Developer",
+    company_name: "Castler",
     icon: dcc,
-    iconBg: '#333333',
-    date: 'July 2023 - Present',
+    iconBg: "#333333",
+    date: "July 2023 - Present",
   },
 ];
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'ChatGPT Clone',
-    description: 'I developed this ChatGPT clone with the goal of creating a user-friendly, seamless experience for interacting with AI-powered APIs. Built with React for the frontend and Node.js for the backend, the project integrates Hugging Face APIs to deliver real-time AI interactions. The database is powered by MongoDB, ensuring efficient data management. The frontend is deployed on Vercel, and the backend on Render, ensuring efficient performance and scalability. This project highlights my expertise in delivering intuitive, responsive applications while integrating advanced AI services.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: chatGptClone,
-    repo: 'https://github.com/Kartik-Rao11/Chat-gpt-clone',
-    demo: 'https://chat-gpt-clone-kartik-rao.vercel.app/',
-  },
-  {
-    id: 'project-2',
-    name: 'E-Commerce',
+    id: "project-1",
+    name: "E-Commerce",
     description:
-      'This full-stack eCommerce application is built using React for the frontend and Java Spring Boot for the backend. The project aims to deliver a seamless and user-friendly online shopping experience, offering a responsive interface, a diverse range of products, and secure payment processing. The database is powered by MySQL, and Razorpay APIs are integrated for smooth and secure payments. The frontend is deployed on Vercel, while the backend is hosted on Railway, ensuring reliability and scalability.',
+      "This full-stack eCommerce application is built using React for the frontend and Java Spring Boot for the backend. The project aims to deliver a seamless and user-friendly online shopping experience, offering a responsive interface, a diverse range of products, and secure payment processing. The database is powered by MySQL, and Razorpay APIs are integrated for smooth and secure payments. The frontend is deployed on Vercel, while the backend is hosted on Railway, ensuring reliability and scalability.",
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
+        name: "restapi",
+        color: "green-text-gradient",
       },
       {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: "scss",
+        color: "pink-text-gradient",
       },
     ],
     image: ecommerce,
-    repo: 'https://github.com/Kartik-Rao11/E-Commerce',
-    demo: 'https://e-commerce-frontend-kartik-rao.vercel.app/',
+    repo: "https://github.com/Kartik-Rao11/E-Commerce",
+    demo: "https://e-commerce-frontend-kartik-rao.vercel.app/",
   },
   {
-    id: 'project-3',
-    name: 'LinkedIn Clone',
-    description: 'This LinkedIn clone is built using React and Firebase, designed to replicate the core features of the popular professional networking platform. The app includes real-time authentication, user profiles, and features like posting to the feed with text, audio, and video content, providing a smooth and user-friendly experience. The entire application, including the frontend and backend, is deployed through Google Firebase, ensuring seamless integration, hosting, and scalability.',
+    id: "project-2",
+    name: "Website Generator",
+    description:
+      "An innovative AI-powered website generator that allows users to create web applications by providing natural language prompts. Leveraging advanced language models and web technologies, this tool transforms user descriptions into fully functional React-based websites with intelligent step-by-step generation.",
     tags: [
       {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: "mongodb",
+        color: "green-text-gradient",
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: "tailwind",
+        color: "pink-text-gradient",
       },
     ],
-    image: linkedinclone,
-    repo: 'https://github.com/Kartik-Rao11/linkedin-clone',
-    demo: 'https://linkedin-clone-d726f.web.app/',
-  }
+    image: websiteGenerator,
+    repo: "https://github.com/Kartik-Rao11/website_generator",
+    demo: "https://website-generator-kr.vercel.app/",
+  },
+  {
+    id: "project-3",
+    name: "ChatGPT Clone",
+    description:
+      "I developed this ChatGPT clone with the goal of creating a user-friendly, seamless experience for interacting with AI-powered APIs. Built with React for the frontend and Node.js for the backend, the project integrates Hugging Face APIs to deliver real-time AI interactions. The database is powered by MongoDB, ensuring efficient data management. The frontend is deployed on Vercel, and the backend on Render, ensuring efficient performance and scalability. This project highlights my expertise in delivering intuitive, responsive applications while integrating advanced AI services.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatGptClone,
+    repo: "https://github.com/Kartik-Rao11/Chat-gpt-clone",
+    demo: "https://chat-gpt-clone-kartik-rao.vercel.app/",
+  },
   // {
   //   id: 'project-4',
   //   name: 'Movie Metro',
@@ -277,6 +280,7 @@ const projects = [
   // },
 ];
 
-const resumeLink = 'https://drive.google.com/file/d/15k-kHlbX7ruDYGFVgcG0Drw2-ZOMrcMG/view?usp=sharing';
+const resumeLink =
+  "https://drive.google.com/file/d/15k-kHlbX7ruDYGFVgcG0Drw2-ZOMrcMG/view?usp=sharing";
 
 export { services, technologies, experiences, projects, resumeLink };
